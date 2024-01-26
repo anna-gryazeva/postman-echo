@@ -9,7 +9,7 @@ public class postmanEchoTest {
 
     @Test
     void returnData() {
-        var text = "some data";
+        var text = "some date";
         given()
                 .baseUri("https://postman-echo.com")
                 .body("some data")
